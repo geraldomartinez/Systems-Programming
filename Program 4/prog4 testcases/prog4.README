@@ -1,0 +1,29 @@
+  This is file prog4.README in the directory 
+
+          ~csi402/public/prog4
+
+You should also take a careful look at the following 
+additional files in this directory. 
+
+  (1) submission_info.txt: This file explains how you should use
+      the turnin-csi402 program to submit your source files
+      and makefile. It also contains additional specifications
+      for your makefile.
+
+  (2) sample_test_info.txt: This file provides information
+      about three sample test cases for this program. (The files 
+      needed for the test cases are test1.asm, test2.asm, test3.asm, 
+      test1.obj, test1.sym, test2.obj, test2.sym and test3.err.)
+
+-------------------------------------------------------------------------------
+An important note for the Assembler Assignment:
+
+Some students may choose to have a text file (with a name such
+as "mot.txt") that contains the machine opcode table, and read
+this file into an appropriate data structure in their program.
+Such students must remember to enter the name of that file also
+in the turnin-402 command discussed in the submission_info.txt
+file. (If that file is not turned in, the program can't be
+executed and the student may receive zero credit for correctness.)
+-------------------------------------------------------------------------------
+
