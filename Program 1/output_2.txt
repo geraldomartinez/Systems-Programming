@@ -1,0 +1,7 @@
+No. of strings in the input file    = 15
+Height of the search tree           =  3
+Number of leaves in the tree        =  8
+Height of the left subtree of root  =  2
+No. of strings in the left subtree  =  7
+Height of the right subtree of root =  2
+No. of strings in the right subtree =  7
