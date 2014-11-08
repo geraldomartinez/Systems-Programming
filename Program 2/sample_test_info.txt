@@ -1,0 +1,82 @@
+Information about sample inputs for Program II:
+===============================================
+
+  There are two text files, namely t1.txt and t2.txt. The
+corresponding binary files are t1.bin and t2.bin respectively.
+
+I. Testing your program with -t and -b flags:
+---------------------------------------------
+
+  We will explain how to use the first test case (t1.txt and
+t1.bin) with flags -t and -b. Similar comments apply to the 
+second test case. 
+
+(a) Testing the program with the -t flag:
+-----------------------------------------
+
+  When you execute the Unix command 
+
+         p2  -t  t1.txt  new_t1.bin
+
+the (binary) file new_t1.bin produced by your program should be IDENTICAL
+to the file t1.bin in this directory. To check whether the binary files
+new_t1.bin and t1.bin are identical, you should use the following 
+Unix command:
+
+       diff  t1.bin  new_t1.bin
+
+If the files are different, the above command will produce
+a message to that effect. If the files are identical, you won't
+see any output; the Unix system will simply produce 
+the prompt for the next command. 
+
+(b) Testing the program with the -b flag:
+-----------------------------------------
+
+  When you execute the Unix command 
+
+         p2  -b  t1.bin  new_t1.txt
+
+the (text) file new_t1.txt produced by your program should be IDENTICAL
+to the file t1.txt in this directory. To check whether the text files
+new_t1.bin and t1.bin are identical, you should again use the 
+Unix diff command as follows. (Note that when you compare two
+text files, the -q flag is used to ensure that diff produces 
+a simple message when files differ.) 
+
+       diff  -q  t1.txt   new_t1.txt  
+
+If the files are different, the above command will produce
+a message to that effect. If the files are identical, you won't
+see any output; the Unix system will simply produce 
+the prompt for the next command. 
+
+
+II. Testing the program with the -s flag:
+-----------------------------------------
+
+(a) When you run the Unix command 
+
+         p2  -s  t1.bin
+
+    the output produced to stdout must be the following:
+
+        Length of a shortest string in the input file  = 1
+        Length of a longest string in the input file   = 5
+        Value of the maximum integer in the input file = 100
+        Value of the minimum integer in the input file = 96
+
+(b) When you run the Unix command 
+
+         p2  -s  t2.bin
+
+    the output produced to stdout must be the following:
+
+        Length of a shortest string in the input file  = 10
+        Length of a longest string in the input file   = 100
+        Value of the maximum integer in the input file = 100000
+        Value of the minimum integer in the input file = 100
+
+Note: After each call to the printf function, remember to
+      use fflush(stdout) to ensure that the grading script will 
+      see all the output written to stdout by your program. 

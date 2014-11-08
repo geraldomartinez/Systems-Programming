@@ -1,0 +1,5 @@
+a	100
+ab	99
+abc	98
+abcd	97
+abcde	96
