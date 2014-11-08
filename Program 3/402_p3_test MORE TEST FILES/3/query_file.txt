@@ -1,0 +1,9 @@
+project Ints i
+select Ints i <  2147483647
+select Ints i >  2147483647
+select Ints i <= 2147483647
+select Ints i >= 2147483647
+select Ints i <  -2147483648
+select Ints i >  -2147483648
+select Ints i <= -2147483648
+select Ints i >= -2147483648

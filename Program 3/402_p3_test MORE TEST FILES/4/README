@@ -1,0 +1,3 @@
+Do not expect the formatting to be pretty on this one. 
+Just a test to make sure the code can handle large strings and files
+without seg-faulting..

@@ -1,0 +1,5 @@
+project SmallStrings str1
+project SmallStrings str2
+project SmallStrings str3
+select SmallStrings str1 == "1"
+select SmallStrings str2 != ""

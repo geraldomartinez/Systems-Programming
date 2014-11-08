@@ -1,0 +1,4 @@
+project StatePopulation state
+select StatePopulation population > 1000
+select StatePopulation state == "New York"
+select StatePopulation state != "NewYork"

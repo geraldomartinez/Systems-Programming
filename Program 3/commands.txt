@@ -1,0 +1,12 @@
+nattr
+tuplen
+infattr
+count
+project
+select
+heah
+quit
+project
+select
+alksdm
+tuplen
